@@ -7,7 +7,7 @@
 ### **Segunda Etapa Desenvolvimento em Tecnologia Pura**
 
 - Desenvolver a Base de Dados ✔️
-- Implementar Backend 
+- Implementar Backend ⚙️
 - Implementar Frontend 
 
 
