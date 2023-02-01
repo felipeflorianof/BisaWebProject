@@ -7,13 +7,13 @@
 ### **Segunda Etapa Desenvolvimento em Tecnologia Pura**
 
 - Desenvolver a Base de Dados ✔️
-- Implementar Backend
-- Implementar Frontend
+- Implementar Backend 
+- Implementar Frontend 
 
 
 ### **Terceira Etapa Desenvolvimento em Framework**
 
-- Implementar Backend em um Framework
+- Implementar Backend em um Framework 
 
 ### **Quarta Etapa Demandas Reais**
 
