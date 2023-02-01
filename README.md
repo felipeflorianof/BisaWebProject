@@ -1,32 +1,20 @@
-# BisaWebProject
+# _BisaWebProject_
 
-- As próximas etapas terão como objetivo desenvolver uma aplicação nas seguintes regras de negócio:
-- Uma aplicação de controle financeiro que gerencie:
-- Entradas e saídas de uma única conta bancária;
-- Deve ser um CRUD;
-- Tipos de entradas e tipos de saídas;
-- Deve ser um CRUD;
-- E gere relatórios e gráficos:
-- Por período de tempo;
-- Por entrada e/ou saída;
-- Por tipos de entrada e/ou tipos de saída.
-- ssa aplicação deverá seguir as seguintes restrições técnicas:
-- Ter uma arquitetura em duas camadas, cliente e servidor;
-- A Camada Servidora deverá ser:
-- Responsável pelo processamento e validação dos dados, e pelas regras de negócio;
-- Desenvolvida na arquitetura MVC;
-- Modularizada em funções para o usuário;
-- Desenvolvida em serviços;
-- Desenvolvida em microserviços quando necessário;
-- Se comunicar apenas por Json;
-- Respeitar o padrão REST;
-- Desenvolvida em PHP, sem utilização de framework;
-○ Liberada a utilização de bibliotecas especializadas quando necessárias;
-- A Camada Cliente deverá ser:
-- Responsável pela interação com o usuário;
-- Modularizada em funções para o usuário;
-- Componentizada onde for possível;
-- Se comunicar apenas por Json;
-- Uma interface gráfica web, utilizando:
-- HTML5, CSS3, JavaScript, JQuery 3.6, Bootstrap 5.1;
-- Componentes e bibliotecas especializadas, quando necessários;
+### **Primeira Etapa Configurar Ambiente de Desenvolvimento**
+
+- Configurar o Ambiente de Trabalho
+
+### **Segunda Etapa Desenvolvimento em Tecnologia Pura**
+
+- Desenvolver a Base de Dados
+- Implementar Backend
+- Implementar Frontend
+
+
+### **Terceira Etapa Desenvolvimento em Framework**
+
+- Implementar Backend em um Framework
+
+### **Quarta Etapa Demandas Reais**
+
+- Trabalho em Equipe / Manutenção de Sistema Legado
