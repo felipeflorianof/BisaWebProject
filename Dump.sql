@@ -1,29 +1,29 @@
-create database BisaWebProject;
+create database bisa;
 
-use BisaWebProject;
+use bisa;
 
-CREATE TABLE Tipos_Entradas (
-  id_tipo_entrada INT PRIMARY KEY,
-  nome VARCHAR(255)
+CREATE TABLE Tipo_Entrada (
+  id_tipo_entrada INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE Entradas (
-  id_entrada INT PRIMARY KEY,
+CREATE TABLE Entrada (
+  id_entrada INT PRIMARY KEY AUTO_INCREMENT,
   id_tipo_entrada INT,
-  descricao VARCHAR(255),
+  descricao Text NOT NULL,
   data_hora_entrada DATETIME,
-  FOREIGN KEY (id_tipo_entrada) REFERENCES Tipos_Entradas (id_tipo_entrada)
+  FOREIGN KEY (id_tipo_entrada) REFERENCES Tipo_Entrada (id_tipo_entrada)
 );
 
-CREATE TABLE Tipos_Saida (
-  id_tipo_saida INT PRIMARY KEY,
-  nome VARCHAR(255)
+CREATE TABLE Tipo_Saida (
+  id_tipo_saida INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Saida (
-  id_saida INT PRIMARY KEY,
+  id_saida INT PRIMARY KEY AUTO_INCREMENT,
   id_tipo_saida INT,
-  descricao VARCHAR(255),
+  descricao Text NOT NULL,
   data_hora_saida DATETIME,
-  FOREIGN KEY (id_tipo_saida) REFERENCES Tipos_Saida (id_tipo_saida)
+  FOREIGN KEY (id_tipo_saida) REFERENCES Tipo_Saida (id_tipo_saida)
 );

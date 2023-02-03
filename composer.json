@@ -1,14 +1,6 @@
 {
     "name": "felipeflorianof/bisawebproject",
     "description": "Sistema de Controle Financeiro",
-    "autoload": {
-        "psr-4": {
-            "Felip\\Php\\": "src/"
-        }, 
-        "files": [
-            "src/Config.php"
-        ]
-    },
     "authors": [
         {
             "name": "Felipe Floriano",
@@ -16,6 +8,14 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        }, 
+        "files": [
+            "src/Config.php"
+        ]
+    },
     "require": {
         "coffeecode/datalayer": "1.1.2"
     }
