@@ -8,7 +8,7 @@ class Input extends DataLayer
 {
     public function __construct()
     {
-        parent::__construct("entrada", ["id_entrada", "id_tipo_entrada", "descricao","data_hora_entrada"], "id_entrada");
+        parent::__construct("entrada", ["descricao","data_hora_entrada"], "id_entrada", false);
     }
     
     public function InputTypes()
