@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8972ff93f13b731b737be7456e65171c",
+    "content-hash": "89e70b385acb79d2951f2905809459dd",
     "packages": [
         {
             "name": "coffeecode/datalayer",
-            "version": "1.1.2",
+            "version": "1.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/datalayer.git",
-                "reference": "928012861d39b855c91485a0f1bd29d202c2fd08"
+                "reference": "52e209190752eccc0bfd8ff3abcdd607ed4c01c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/928012861d39b855c91485a0f1bd29d202c2fd08",
-                "reference": "928012861d39b855c91485a0f1bd29d202c2fd08",
+                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/52e209190752eccc0bfd8ff3abcdd607ed4c01c1",
+                "reference": "52e209190752eccc0bfd8ff3abcdd607ed4c01c1",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
-                "php": "^7.2"
+                "php": ">=7.2"
             },
             "type": "library",
             "autoload": {
@@ -55,9 +55,9 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/datalayer/issues",
-                "source": "https://github.com/robsonvleite/datalayer/tree/master"
+                "source": "https://github.com/robsonvleite/datalayer/tree/1.1.8"
             },
-            "time": "2019-07-08T20:23:49+00:00"
+            "time": "2021-03-21T14:00:57+00:00"
         }
     ],
     "packages-dev": [],

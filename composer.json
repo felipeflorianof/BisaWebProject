@@ -17,6 +17,6 @@
         ]
     },
     "require": {
-        "coffeecode/datalayer": "1.1.2"
+        "coffeecode/datalayer": "1.1.8"
     }
 }

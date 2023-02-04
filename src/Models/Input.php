@@ -13,6 +13,10 @@ class Input extends DataLayer
     
     public function InputTypes()
     {
-        return (new InputType())->find("id_tipo_entrada = :uid", "uid={$this->id_tipo_entrada}")->fetch(true);
+        if (!empty($this->id_tipo_entrada)) {
+            return (new InputType())->find("id_tipo_entrada = :uid", "uid={$this->id_tipo_entrada}")->fetch(true);
+        } else {
+            return new InputType();
+        }
     }
 }

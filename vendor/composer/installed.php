@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'coffeecode/datalayer' => array(
-            'pretty_version' => '1.1.2',
-            'version' => '1.1.2.0',
-            'reference' => '928012861d39b855c91485a0f1bd29d202c2fd08',
+            'pretty_version' => '1.1.8',
+            'version' => '1.1.8.0',
+            'reference' => '52e209190752eccc0bfd8ff3abcdd607ed4c01c1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../coffeecode/datalayer',
             'aliases' => array(),

@@ -34,7 +34,6 @@ class Connect
                 self::$error = $exception;
             }
         }
-
         return self::$instance;
     }
 
@@ -50,14 +49,14 @@ class Connect
     /**
      * Connect constructor.
      */
-    final private function __construct()
+    private function __construct()
     {
     }
 
     /**
      * Connect clone.
      */
-    final private function __clone()
+    private function __clone()
     {
     }
 }
