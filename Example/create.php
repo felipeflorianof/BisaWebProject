@@ -6,8 +6,7 @@ use Source\Models\Input;
     try {
 
         $input = new Input();
-        $input->id_tipo_entrada = 3;
-        $input->descricao = "teste, bla bla!";
+        $input->descricao = "Apenas um teste";
         $input->data_hora_entrada = date("Y-m-d H:i:s");
         $input->save();
 

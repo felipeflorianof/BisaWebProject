@@ -5,7 +5,7 @@ require __DIR__ . "/../vendor/autoload.php";
 use Source\Models\Input;
 
 try {
-    $input = (new Input())->findById(2);
+    $input = (new Input())->findById(5);
 
     if ($input) {
         $input->destroy();

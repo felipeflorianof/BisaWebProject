@@ -17,6 +17,8 @@
         ]
     },
     "require": {
-        "coffeecode/datalayer": "1.1.8"
+        "coffeecode/datalayer": "1.1.8",
+        "coffeecode/router": "1.0.5",
+        "league/plates": "^3.5"
     }
 }
