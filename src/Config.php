@@ -1,6 +1,6 @@
 <?php
 
-define("URL_BASE", "http://localhost/Shitbox");
+define("URL_BASE", "http://localhost/BisaWebProject");
 
 const DATA_LAYER_CONFIG = [
     "driver" => "mysql",
