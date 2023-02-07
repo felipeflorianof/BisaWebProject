@@ -7,8 +7,9 @@
         foreach($inputs as $input): 
             ?>
             <article class="teste">
-                <h3><?= $input->descricao?></h3>
-                <p><?= $input->data_hora_entrada?></p>
+                <h3><?= $input->valor_entrada ?></h3>
+                <p><?= $input->descricao ?></p>
+                <p><?= $input->data_hora_entrada ?></p>
             </article>
         <?php
         endforeach;
