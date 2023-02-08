@@ -7,9 +7,10 @@ use Source\Models\Input;
 
         $input = new Input();
 
-        $input->id_tipo_entrada = 1;
+        //$input->id_tipo_entrada = 1;
+        $input->numero_da_conta = rand();
         $input->valor_entrada = 2300;
-        $input->descricao = "Aaaaaa";
+        $input->descricao = "only a simple test";
         $input->data_hora_entrada = date("Y-m-d H:i:s");
         $input->save();
 
