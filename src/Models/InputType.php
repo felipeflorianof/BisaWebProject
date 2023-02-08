@@ -14,7 +14,6 @@ class InputType extends DataLayer
     public function add(Input $input, string $nome): InputType
     {
         $this->id_tipo_entrada = $input->id_entrada;
-        $this->nome = $nome;
 
         
         return $this;
