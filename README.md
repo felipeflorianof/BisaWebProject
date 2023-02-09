@@ -7,8 +7,8 @@
 ### **Segunda Etapa: Desenvolvimento em Tecnologia Pura**
 
 - Desenvolver a Base de Dados ✔️
-- Implementar Backend ⚙️
-- Implementar Frontend 
+- Implementar Backend ✔️
+- Implementar Frontend ⚙️
 
 
 ### **Terceira Etapa: Desenvolvimento em Framework**
