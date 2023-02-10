@@ -20,8 +20,6 @@
     else:
     ?>
         <a title="" href="<?= url();?>">Home</a>
-        <a title="" href="<?= url("contato");?>">Contato</a>
-        <a title="" href="<?= url("error");?>">Teste</a>
     <?php
 
     endif; 
