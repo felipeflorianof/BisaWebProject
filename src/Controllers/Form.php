@@ -29,7 +29,6 @@ class Form
             foreach ($list as $userItem) {	
         
                     $item = get_object_vars($userItem->data());
-                    //$item = $userItem->data();
                     $inputTypes = [];
                     foreach ($userItem->InputTypes() as $input){
                         $inputTypes[] = $input->data(); 
@@ -60,7 +59,7 @@ class Form
         $valor_entrada = isset($inputData['valor_entrada']) ? $inputData['valor_entrada'] : '';
         
         $input = new Input();
-        $input->numero_da_conta = $numero_da_conta;
+        $input->numero_da_conta = rand();
         $input->descricao = $descricao;
         $input->valor_entrada = $valor_entrada;
         $input->data_hora_entrada = date("Y-m-d H:i:s");
