@@ -8,4 +8,3 @@
 
 - Desenvolver a Base de Dados ✔️
 - Implementar Backend ✔️
-- Implementar Frontend ⚙️
